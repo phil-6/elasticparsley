@@ -1,5 +1,5 @@
 body {
-    font-family: 'Nunito';
+    font-family: 'Krub', sans-serif;;
     letter-spacing: 0.0625em;
     color: #022B3A;
 }
@@ -26,7 +26,7 @@ a:focus, a:hover {
     margin: 0!important;
 }
 .masthead h1 {
-    font-family: 'Cabin';
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
     line-height: 2.5rem;
@@ -84,7 +84,7 @@ a:focus, a:hover {
 
 .contact-section .card h4 {
     font-size: 0.8rem;
-    font-family: 'Varela Round';
+    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
 }
