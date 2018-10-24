@@ -76,11 +76,17 @@ a:focus, a:hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-in-out;
 }
-.container a:hover {
-    transform: scale(1.02, 1.02);
+.container a{
+    transform: scale(1.01, 1.01);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
     z-index:2;
-    transition: all 0.3s ease-in-out;
+    color: #022B3A;
+}
+.container a:hover{
+    transform: scale(1, 1);
+    box-shadow: none;
+    z-index:2;
+    transition: all 0.2s;
     color: #022B3A;
 }
 a:hover i{
