@@ -1,6 +1,3 @@
-html {
-    height: 100%;
-}
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -21,7 +18,6 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 5rem 0;
     background-color: #EEF6EE;
     background-image: -moz-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-image: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
