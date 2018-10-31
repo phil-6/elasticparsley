@@ -54,12 +54,6 @@ body:after {
 body.is-preload:after {
     opacity: 1;
 }
-.title {
-    max-width: 95%;
-}
-.title-text{
-    margin:0;
-}
 .elastic {
     color: #022B3A;
     padding: 0!important;
