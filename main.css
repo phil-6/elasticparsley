@@ -11,6 +11,9 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 a:focus, a:hover {
     text-decoration: none;
 }
+html {
+    width: 100%;
+}
 body {
     font-family: 'Krub', sans-serif;;
     letter-spacing: 0.0625em;
@@ -70,6 +73,7 @@ body.is-preload:after {
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
+    max-width: 100%;
 }
 @media (max-width: 576px) {
     .portfolio-card{
