@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+body {
+    font-family: 'Krub', sans-serif;
+}
+
+/*Define Background Colours*/
+/*also colours for fonts*/
+.background-bluegrad{
+    background-color: #2193b0;
+    background-image: -moz-linear-gradient(120deg, #2193b0 0%, #6dd5ed 100%);
+    background-image: -webkit-linear-gradient(120deg, #2193b0 0%, #6dd5ed 100%);
+    background-image: -ms-linear-gradient(120deg, #2193b0 0%, #6dd5ed 100%);
+    background-image: linear-gradient(120deg, #2193b0 0%, #6dd5ed 100%);
+    color: white;
+}
+.background-bluegrad a i{
+    color: white;
+}
+.background-black{
+    background-color: black;
+    color: white;
+}
+
+.background-tomato{
+    background-color: tomato;
+    color: white;
+}
+.background-orange{
+    background-color: orange;
+    color: white;
+}
+.background-purple{
+    background-color: rebeccapurple;
+    color: white;
+}
+.background-cyan{
+    background-color: darkcyan;
+    color: white;
+}
+
+/*Padding around columns*/
+.row{
+    padding: 2.5rem;
+}
