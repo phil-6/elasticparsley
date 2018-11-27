@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+body {
+    font-family: 'Krub', sans-serif;
+}
+
+/*
+Navbar Styles
+*/
+.navbar-brand img {
+    max-height: 100px;
+}
+.navbar .dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/*Header background*/
+header::before {
+    content: ' ';
+    display:block;
+    position:absolute;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #2193b0;
+    background-image: -moz-linear-gradient(120deg, #6a85b6 0%, #bac8e0 100%);
+    background-image: -webkit-linear-gradient(120deg, #6a85b6 0%, #bac8e0 100%);
+    background-image: -ms-linear-gradient(120deg, #6a85b6 0%, #bac8e0 100%);
+    background-image: linear-gradient(120deg, #6a85b6 0%, #bac8e0 100%);
+    color: white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/*Our Services */
+
