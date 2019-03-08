@@ -42,10 +42,10 @@ body:after {
     opacity: 0;
     z-index: 1;
     background-color: #ffffff;
-    background-image: -moz-linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-    background-image: -webkit-linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-    background-image: -ms-linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
-    background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    background-image: -moz-linear-gradient(60deg, #3d3393 5%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    background-image: -webkit-linear-gradient(60deg, #3d3393 5%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    background-image: -ms-linear-gradient(60deg, #3d3393 5%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+    background-image: linear-gradient(60deg, #3d3393 5%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -130,21 +130,21 @@ body.is-preload:after {
 .card-body{
     padding: 10px 0px;
 }
-.container a{
+.container .card{
     /*transform: scale(1.01, 1.01);*/
     /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);*/
     box-shadow: 6px 4px 8px 0px rgba(0,0,0,0.4);
     z-index:2;
     color: #022B3A;
 }
-.container a:hover{
+.container .card:hover{
     /*transform: scale(1, 1);*/
     box-shadow: none;
     z-index:2;
     transition: all 0.2s;
     color: #022B3A;
 }
-a:hover i{
+.container .card:hover i{
     color: #006000;
 }
 
@@ -182,6 +182,45 @@ body.is-preload .card {
     border-width: 0.25rem;
     border-radius: 200px;
     width: 3rem;
+}
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #006000;
+}
+.card:hover .card-overlay {
+    opacity: 0.8;
+}
+.card-overlay a {
+    text-decoration: none;
+    color: #EEF6EE;
+    top: 50%;
+    padding-top: 20px;
+}
+.card-overlay-half {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 2px;
+}
+.card-overlay-half:hover {
+    background-color: #2b76b9;
+}
+.card-overlay-half h1{
+    font-size: 18px;
+}
+.card-overlay-half h2{
+    font-size: 12px;
+
 }
 .portfolio-card{
     max-width: 200px;
