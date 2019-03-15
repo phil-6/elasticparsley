@@ -48,7 +48,7 @@
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <!-- Font Family-->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Krub:400,700|" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Krub:400,500,600,700|" rel="stylesheet">
 
     <!-- StyleSheet -->
     <link rel="stylesheet" href="../assets/css/blog.css">
@@ -58,12 +58,22 @@
 </head>
 <body id="overboot">
 <header>
-
+    <div class="social d-flex justify-content-center">
+        <a href="../" class="mx-2" alt="Elastic Parsley Home">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="https://thesummoner.uk" class="mx-2">
+            <i class="fas fa-route" alt="The Summoner"></i>
+        </a>
+        <a href="https://www.mobilise.cloud/blog/how-to-send-a-text-message-from-a-website-using-aws" class="mx-2">
+            <i class="fas fa-cloud" alt="Mobilise Cloud"></i>
+        </a>
+    </div>
 </header>
 <div class="blog-content">
     <h1>How to build a simple Serverless App to Send a Text Message</h1>
-    <h2>The Summoner <a href="https://thesummoner.uk">(https://thesummoner.uk)</a> allows you to summon anyone to your location via text message. However at
-        its core it leverages several AWS services to send a text message from a website.</h2>
+    <h3>The Summoner (<a href="https://thesummoner.uk">thesummoner.uk</a>) allows you to summon anyone to your location via text message. However at
+        its core it leverages several AWS services to send a text message from a website.</h3>
     <img src="../assets/images/the-summoner-screenshot.png">
     <p>The Summoner was built as a learning exercise, and while building it I found that there were no basic guides on
         how to achieve this simple functionality end to end.</p>
@@ -74,11 +84,11 @@
         text messages a month.</p>
     <p>I’ve tried to take a grass roots approach here so anyone with only a basic understanding can follow along. If you
         feel I’ve missed anything out or if you want further explanation on anything then please let me know.</p>
-    <p>You can view the website and lambda code here on GitHub.</p>
+    <p>You can view the website and lambda code <a href="https://github.com/phil-6/summoner">here on GitHub.</a></p>
 
     <h2>Contents:</h2>
 
-    <ul>
+    <ul class="contents">
         <li><a href="#architecture">Architecture Diagram</a></li>
         <li><a href="#sns-topic">SNS - Create Topic</a></li>
         <li><a href="#sns-new-topic">Creating a new topic</a></li>
@@ -253,7 +263,8 @@
 
     <p>The final step is to head over to the Crypto tab on Cloudflare and toggle “Always use HTTPS” to on and there you
         have it!</p>
-
+    <p></p>
+    <p>Any questions drop me an <a href="mailto:hello@elasticparsley.uk">email</a> or comment on the <a href="https://www.mobilise.cloud/blog/how-to-send-a-text-message-from-a-website-using-aws">Mobilise blog</a>.</p>
 
 </div>
 </body>
